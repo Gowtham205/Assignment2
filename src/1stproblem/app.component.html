@@ -1,0 +1,9 @@
+<input [(ngModel)]="color" />
+<input [(ngModel)]="backgroundcolor">
+
+<div [ngStyle]="{'color': color}">
+  style using ngStyle
+</div>
+<div [ngStyle]="{'color': color,'background-color':backgroundcolor}">
+  background-color using ngStyle
+</div>
